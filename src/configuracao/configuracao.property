@@ -1,0 +1,15 @@
+######## Base de Configuração do Navegador ################
+ChromePath=src/drivers/chromedriver.exe
+BaseURL=https://www.unimed.coop.br/
+###########################################################
+
+#### Elementos de Espera ####
+esperaDoCampoPesquisa=campo_pesquisa
+esperaDoEstado=react-select-2-option-18
+esperaDaCidade=react-select-3-option-67
+esperaRadioButton=//form[@class='form-escolher-unimed-gm']
+esperaDoTexto=//div[@class='resultado-resumido padding relative']
+
+#### Elemento Texto ####
+especialidade = //p[2]/span[2]
+cidade=//span[@id='txt_endereco']/p
